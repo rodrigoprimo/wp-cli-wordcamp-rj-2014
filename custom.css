@@ -1,0 +1,82 @@
+body {
+    background-color: #FFF;
+}
+
+@font-face {
+    font-family: 'Museo';
+    src: url('fonts/Museo300-Regular-webfont.eot');
+    src: url('fonts/Museo300-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Museo300-Regular-webfont.woff') format('woff'),
+         url('fonts/Museo300-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Museo300-Regular-webfont.svg#Museo300Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo';
+    src: url('fonts/Museo500-Regular-webfont.eot');
+    src: url('fonts/Museo500-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Museo500-Regular-webfont.woff') format('woff'),
+         url('fonts/Museo500-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Museo500-Regular-webfont.svg#Museo500Regular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+div.slide h1, div.slide h2, div.slide h3, div.slide h4, div.slide h5, div.slide h6 {
+    color: rgb(190, 30, 45);
+    font-family: "Museo";
+    font-weight: normal;
+    line-height: 1;
+}
+
+div.slide h1 {
+    font-size: 63px;
+}
+
+div.titleslide h1 {
+    font-weight: bold;
+}
+
+div.slide h2 {
+    font-size: 54px;
+}
+
+div.slide h3 {
+    font-size: 45px;
+}
+
+div.slide h4 {
+    font-size: 36px;
+}
+
+div.slide h5 {
+    font-size: 36px;
+}
+
+div.slide h6 {
+    font-size: 36px;
+}
+
+div.slide {
+    color: #333;
+    font-family: "Museo";
+    font-size: 27px;
+    line-height: 1.5;
+}
+
+div.lastslide { text-align: center; }
+div.lastslide h1 { padding-top: 60px; padding-bottom: 60px; font-size: 63px; font-weight: bold;}
+
+aside.logo {
+    bottom: 6px;
+    position: absolute;
+    right: 0px;
+    display: block;
+}
+
+pre {
+    font-size: 22px;
+    padding: 0 10px;
+}
