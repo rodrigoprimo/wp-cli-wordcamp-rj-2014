@@ -2,7 +2,7 @@
 
 Rodrigo Primo
 
-InterCon WP 2014
+WordCamp Rio 2014
 
 .fx: titleslide
 
@@ -76,7 +76,7 @@ Depuração:
     !shell-session
     $ wp shell
     wp> get_bloginfo('blogname')
-    string(13) "Intercon WP 2014"
+    string(13) "WordCamp Rio 2014"
     wp> get_the_title(1)
     string(23) "WP-CLI: o WordPress na linha de comando"
 
@@ -100,7 +100,7 @@ Atualizar o WP, plugins e temas:
 * Linux ou OS X
     * Suporte não oficial ao Windows através do projeto WP-PowerShell - https://github.com/ericmann/WP-PowerShell
 * PHP >= 5.3 e php5-cli
-* WordPress >= 3.5
+* WordPress >= 3.5.2
 
 ---
 
@@ -156,31 +156,6 @@ Ajuda de um sub-comando:
 
     !shell-session
     $ wp help theme list
-
----
-
-# Arquivo de configuração
-
-* Permite definir um valor padrão para os parâmetros globais ou parâmetros de um comando específico
-* Escrito no formato YAML
-* Pode ser criado dentro de um projeto ou então na home do usuário
-* Para mais informações: http://wp-cli.org/config/
-
----
-
-# Exemplo de arquivo de configuração
-
-    !shell-session
-    path: src
-    disabled_commands:
-      - db drop
-      - plugin install
-    require:
-      - path-to/command.php
-
-    core install:
-      admin_user: wordcamp
-      admin_email: wordcamp@example.com
 
 ---
 
