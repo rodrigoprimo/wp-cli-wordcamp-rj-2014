@@ -2116,8 +2116,8 @@ a){var b=F.exec(a);b&&(b[1]=(b[1]||"").toLowerCase(),b[3]=b[3]&&new RegExp("(?:^
             <header><h2>Tarefas de desenvolvimento</h2></header>
             
             
-            <section><p>Alterar uma string no banco de dados (em especial a URL do WP):</p>
-<div class="highlight"><pre><span class="go">$ wp search-replace textoAntigo textoNovo</span>
+            <section><p>Migrar uma base de dados da produção para o ambiente de desenvolvimento:</p>
+<div class="highlight"><pre><span class="go">$ wp search-replace --url=example.com example.com example.dev</span>
 </pre></div>
 
 <p>Ver o valor de uma opção serializada:</p>

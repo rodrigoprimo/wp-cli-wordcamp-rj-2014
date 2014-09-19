@@ -210,10 +210,10 @@ Ativar tema:
 
 ## Tarefas de desenvolvimento
 
-Alterar uma string no banco de dados (em especial a URL do WP):
+Migrar uma base de dados da produção para o ambiente de desenvolvimento:
 
     !shell-session
-    $ wp search-replace textoAntigo textoNovo
+    $ wp search-replace --url=example.com example.com example.dev
 
 Ver o valor de uma opção serializada:
 
